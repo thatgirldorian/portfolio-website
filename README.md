@@ -16,3 +16,6 @@ This is a bare-bone portfolio website I built to house the bajillion projects th
 
 
 <h3>Screenshot:</h3>
+
+<img width="1082" alt="Screenshot 2021-12-28 at 3 43 10 PM" src="https://user-images.githubusercontent.com/40691059/147572486-9f2a839a-83f7-4ed5-accf-29103bd354a4.png">
+
