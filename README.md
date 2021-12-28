@@ -13,6 +13,7 @@ This is a bare-bone portfolio website I built to house the bajillion projects th
 - Nettlify
 
 <h3>Link to site:</h3>
+https://debbie-otua.netlify.app/
 
 
 <h3>Screenshot:</h3>
