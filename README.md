@@ -18,5 +18,4 @@ https://debbie-otua.netlify.app/
 
 <h3>Screenshot:</h3>
 
-<img width="1082" alt="Screenshot 2021-12-28 at 3 43 10 PM" src="https://user-images.githubusercontent.com/40691059/147572486-9f2a839a-83f7-4ed5-accf-29103bd354a4.png">
-
+<img width="969" alt="Screenshot 2022-01-02 at 8 45 30 PM" src="https://user-images.githubusercontent.com/40691059/147886162-b9b283b3-7568-4cc4-b42d-e0771ea67473.png">
