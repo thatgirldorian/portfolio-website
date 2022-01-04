@@ -12,6 +12,10 @@ p, li {
     font-size: 18px;
 }
 
+p {
+    line-height: 2;
+}
+
 .wrapper-heading {
     color: #41337A;
 }
