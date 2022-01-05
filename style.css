@@ -55,12 +55,37 @@ ul {
     }
 
 /* Styling for the project headers */
-    .project-box a {
+.project-box a {
     text-decoration: underline;
     text-decoration-color: #41337A;
     text-decoration-style: solid;
     text-decoration-thickness: 4px;
 }
+
+.project-box a:link {
+    color: #41337A;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.project-box a:visited {
+    color: #41337A;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.project-box a:hover {
+    color: #41337A;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.project-box a:active {
+    color: #41337A;
+    background-color: transparent;
+    text-decoration: none;
+}
+
 
 /* Button styles */
 button {
