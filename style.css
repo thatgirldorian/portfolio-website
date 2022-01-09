@@ -47,15 +47,14 @@ p, li, a {
 
 #desc-link {
     color: #41337A;
-    text-decoration: none;
     font-weight: bold;
 }
 
 /* Laptop Width Sizes: p & li */
 @media (max-width: 480px) {
     p, li {
-        padding-right: 10px;
-        padding-left: 10px;
+        padding-right: 15px;
+        padding-left: 15px;
         line-height: 1.5;
     }
 }
@@ -64,8 +63,8 @@ p, li, a {
 /* Laptop Width Sizes: p & li */
 @media (min-width: 1024px) {
     p, li {
-        padding-right: 50px;
-        padding-left: 50px;
+        padding-right: 300px;
+        padding-left: 300px;
         line-height: 1.5;
     }
 }
