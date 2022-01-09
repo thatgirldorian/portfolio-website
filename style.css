@@ -36,15 +36,6 @@ p, li, a {
 }
 
 /* Laptop Width Sizes: p & li */
-@media (max-width: 1024px) {
-    p, li {
-        padding-right: 50px;
-        padding-left: 50px;
-        line-height: 1.5;
-    }
-}
-
-/* Mobile Width Sizes: p & li */
 @media (max-width: 480px) {
     p, li {
         padding-right: 5px;
@@ -53,6 +44,15 @@ p, li, a {
     }
 }
 
+
+/* Laptop Width Sizes: p & li */
+@media (max-width: 1024px) {
+    p, li {
+        padding-right: 50px;
+        padding-left: 50px;
+        line-height: 1.5;
+    }
+}
 
 .wrapper-heading {
     color: #41337A;
@@ -79,15 +79,20 @@ div {
 }
 
 ul {
-    
     display: flex;
     justify-content: center;
+    padding: 0;
+    margin-bottom: 20px;
     }
     
-    li {
+li {
     display: inline-block;
     list-style-type: none;
     }
+
+.project-box {
+    padding-bottom: 20px;
+}
 
 /* Styling for the project headers */
 .project-box a {
