@@ -37,9 +37,18 @@ p, li, a {
 }
 
 p, li {
-    padding: 0px 50px 0 50px;
+    padding: 0px 70px 0 70px;
     line-height: 1.5;
 }
+
+/* Mobile Width Sizes: p & li */
+@media (max-width: 480px) {
+    p, li {
+        padding: 0px 10px 0 10px;
+        line-height: 1.5;
+    }
+}
+
 
 .wrapper-heading {
     color: #41337A;
