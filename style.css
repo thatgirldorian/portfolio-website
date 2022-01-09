@@ -48,6 +48,7 @@ p, li, a {
 #desc-link {
     color: #41337A;
     text-decoration: none;
+    font-weight: bold;
 }
 
 /* Laptop Width Sizes: p & li */
