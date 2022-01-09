@@ -1,6 +1,6 @@
 /* Body styles */
 body {
-    background-color: #E8F0F2;
+    background-color: #ffffff;
     margin: 0 auto;
     padding: 0 auto;
 }
@@ -34,6 +34,12 @@ h1, h2, h3 {
 
 p, li, a {
     font-size: 18px;
+}
+
+p, li {
+    padding: 0px 100px 0 100px;
+    text-align: center;
+    line-height: 1.5;
 }
 
 .wrapper-heading {
@@ -111,7 +117,6 @@ ul {
     text-decoration-thickness: 4px;
 }
 
-
 /* Button styles */
 button {
     padding: 8px 20px 8px 20px;
@@ -126,9 +131,9 @@ button {
 
 /* Contact info styles */
 .contact-icons img {
-    width: 65px;
+    width: 25px;
     height: 50px;
-    padding-left: 10px;
+    padding-left: 40px;
 }
 
 /* Project image style */
