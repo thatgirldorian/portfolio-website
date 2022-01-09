@@ -5,7 +5,6 @@ body {
     padding: 0 auto;
 }
 
-
 /* Font styles */
 
 h1 {
@@ -141,7 +140,8 @@ button {
 .contact-icons img {
     width: 25px;
     height: 50px;
-    padding-left: 40px;
+    text-align: center;
+    padding-right: 20px;
 }
 
 /* Project image style */
