@@ -10,7 +10,7 @@ This is a bare-bone portfolio website I built to house the bajillion projects th
 - CSS
 - JavaScript
 - GitHub
-- Nettlify
+- Netlify
 
 <h3>Link to site:</h3>
 https://debbie-otua.netlify.app/
