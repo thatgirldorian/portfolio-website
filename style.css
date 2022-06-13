@@ -83,8 +83,9 @@ header {
 
 #blog {
     background-color: #41337A;
-    padding: 20px;
+    padding: 10px 20px 10px 20px;
     color: white;
+    border-radius: 8px;
 }
 
 .fa-solid {
