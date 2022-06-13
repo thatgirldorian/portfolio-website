@@ -3,6 +3,7 @@ body {
     background-color: #ffffff;
     margin: 0 ;
     padding: 0 ;
+    font-family: 'Raleway', sans-serif;
 }
 
 /* Center the entire page and other elements */
@@ -17,20 +18,17 @@ div {
 
 h1 {
     font-size: 60px;
-    font-family: 'Sacramento', cursive;
     margin-top: 20px;
     margin-bottom: 20px;
 }
 
 h2 {
-    font-family: 'Sacramento', cursive;
     font-size: 40px;
     margin-top: 20px;
     margin-bottom: 20px;
 }
 
 p, li, a, button {
-    font-family: 'Montserrat', sans-serif;
     font-size: 16px;
     text-decoration: none;
 }
@@ -52,7 +50,7 @@ header {
     display: flex;
     margin-left: 200px;
     margin-right: 200px;
-    background-color: pink;
+    /* background-color: pink; */
 }
 
 .header-logo {
@@ -84,7 +82,7 @@ header {
 .hero {
     margin-top: 20px;
     padding-top: 20px;
-    background-color: #faedcd;
+    /* background-color: #faedcd; */
     margin-left: 300px;
     margin-right: 300px;
     margin-bottom: 20px;
@@ -94,7 +92,6 @@ header {
 .hero h4 {
     font-weight: bold;
     font-size: 20px;
-    font-family: 'Montserrat', sans-serif;
 }
 
 .hero p {
@@ -111,7 +108,7 @@ header {
 
 /* Project Styles */
 .project-wrapper {
-    background-color: #ccd5ae;
+    /* background-color: #ccd5ae; */
     margin-left: 200px;
     margin-right: 200px;
     padding-top: 40px;
@@ -141,7 +138,6 @@ header {
 .project-wrapper h3 {
     font-weight: bold;
     font-size: 28px;
-    font-family: 'Montserrat', sans-serif;
 }
 
 .project-description {
@@ -151,19 +147,26 @@ header {
 
 /* Contact Styles */
 footer.contact-wrapper {
-    margin:0;
-    padding:0;
-    min-width:100%;
-    max-width:100%;
+    min-width: 100%;
+    max-width: 100%;
     height:auto;  
-    background-color: #a8dadc;
+    background-color: gainsboro;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+footer h3 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
 }
 
 .contact-icons img {
     width: 25px;
     height: 50px;
     text-align: center;
-    padding-right: 20px;
+    padding-right: 10px;
+    padding-left: 10px;
 }
 
 
@@ -214,6 +217,7 @@ a {
     text-align: center;
     padding-top: 5px;
     padding-bottom: 25px;
+    margin-bottom: 40px;
 }
 
 
