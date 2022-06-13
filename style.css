@@ -114,7 +114,7 @@ header {
     background-color: #ccd5ae;
     margin-left: 200px;
     margin-right: 200px;
-    margin-bottom: 80px; 
+    padding-top: 40px;
 }
 
 .project-container {
@@ -220,10 +220,10 @@ a {
     color: white;
 }
 
-.more-projects-btn {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.more-btn {
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 25px;
 }
 
 
