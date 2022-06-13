@@ -5,6 +5,14 @@ body {
     padding: 0 auto;
 }
 
+/* Center the entire page and other elements */
+div {
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+
 /* Font styles */
 
 h1 {
@@ -19,11 +27,6 @@ h2 {
     font-size: 40px;
     margin-top: 20px;
     margin-bottom: 20px;
-}
-
-h4 {
-    font-size: 16px;
-    font-family: 'Montserrat', sans-serif;
 }
 
 p, li, a, button {
@@ -75,10 +78,92 @@ header {
     margin-right: 10px;
 }
 
+/* Hero styles */
+
+.hero {
+    margin-top: 20px;
+    padding-top: 20px;
+    background-color: #faedcd;
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-bottom: 20px;
+    padding-bottom: 40px;
+}
+
+.hero h4 {
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.hero p {
+    margin: 0;
+    padding: 0;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
 #desc-link {
     color: #41337A;
     font-weight: bold;
 }
+
+/* Project Styles */
+.project-wrapper {
+    background-color: #ccd5ae;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    margin: 40px 200px 40px 200px;
+}
+
+.project-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.project-box {
+    background-color: #41337A;
+    flex: 0 1 24%;
+    border: 1px solid red;
+    width: 150px;
+    height: 150px;
+    padding: 40px;
+    margin: 10px;
+    color: red;
+    text-align: center
+}
+
+.project-box a {
+    color: white;
+}
+
+.project-wrapper h3 {
+    font-weight: bold;
+    font-size: 28px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.project-description {
+    padding: 0;
+    margin: 0;
+}
+
+
+/* Contact Styles */
+.contact-wrapper {
+    padding-top: 25px;
+    background-color: #a8dadc;
+    
+}
+
+.contact-icons img {
+    width: 25px;
+    height: 50px;
+    text-align: center;
+    padding-right: 20px;
+}
+
 
 /* Laptop Width Sizes: p & li */
 @media (max-width: 480px) {
@@ -99,84 +184,12 @@ header {
     }
 }
 
-.wrapper-heading {
-    color: #41337A;
-}
 
 /* Style Photo */
 img {
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
     border-radius: 50%;
-}
-
-/* Div spacing  */
-
-.project-wrapper, .contact-wrapper {
-    padding-top: 25px;
-}
-
-/* Center the entire page and other elements */
-div {
-    text-align: center;
-    padding: 0;
-    margin: 0;
-}
-
-ul {
-    display: flex;
-    justify-content: center;
-    padding: 0;
-    margin-bottom: 20px;
-    }
-    
-li {
-    display: inline-block;
-    list-style-type: none;
-    }
-
-.project-box {
-    padding-bottom: 20px;
-}
-
-/* Styling for the project headers */
-.project-box a {
-    text-decoration: underline;
-    text-decoration-color: #41337A;
-    text-decoration-style: solid;
-    text-decoration-thickness: 4px;
-}
-
-.project-box a:link {
-    color: #41337A;
-    background-color: transparent;
-    text-decoration: underline;
-    text-decoration-style: solid;
-    text-decoration-thickness: 4px;
-}
-
-.project-box a:visited {
-    color: #41337A;
-    background-color: transparent;
-    text-decoration: underline;
-    text-decoration-style: solid;
-    text-decoration-thickness: 4px;
-}
-
-.project-box a:hover {
-    color: #41337A;
-    background-color: transparent;
-    text-decoration: underline;
-    text-decoration-style: solid;
-    text-decoration-thickness: 4px;
-}
-
-.project-box a:active {
-    color: #41337A;
-    background-color: transparent;
-    text-decoration: underline;
-    text-decoration-style: solid;
-    text-decoration-thickness: 4px;
 }
 
 /* Button styles */
@@ -191,21 +204,8 @@ button {
     margin-top: 20px;
 }
 
-/* Contact info styles */
-.contact-icons img {
-    width: 25px;
-    height: 50px;
-    text-align: center;
-    padding-right: 20px;
-}
 
-/* Project image style */
-.project-img {
-    width: 270px;
-    height: 270px;
-    
-}
-.project-img-box {
-    padding-top: 0;
-}
+
+
+
 
