@@ -32,6 +32,7 @@ h2 {
 p, li, a, button {
     font-family: 'Montserrat', sans-serif;
     font-size: 16px;
+    text-decoration: none;
 }
 
 h1, h2, h3 {
@@ -111,9 +112,9 @@ header {
 /* Project Styles */
 .project-wrapper {
     background-color: #ccd5ae;
-    padding-top: 20px;
-    padding-bottom: 40px;
-    margin: 40px 200px 40px 200px;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom: 80px; 
 }
 
 .project-container {
@@ -124,13 +125,14 @@ header {
 
 .project-box {
     background-color: #41337A;
-    flex: 0 1 24%;
+    flex: 0 1 calc(33% - 1em);
     border: 1px solid red;
-    width: 150px;
-    height: 150px;
-    padding: 40px;
-    margin: 10px;
-    color: red;
+    border-radius: 8px;
+    width: 200px;
+    height: 200px;
+    /* padding: 5px 20px 5px 20px; */
+    /* margin: 10px 20px 10px 10px; */
+    color: white;
     text-align: center
 }
 
@@ -149,12 +151,22 @@ header {
     margin: 0;
 }
 
+.divider {
+    margin-bottom: 30px;
+}
+
 
 /* Contact Styles */
-.contact-wrapper {
-    padding-top: 25px;
+footer {
+    position: absolute;
+    width: 100%;
     background-color: #a8dadc;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
     
+
 }
 
 .contact-icons img {
@@ -202,6 +214,16 @@ button {
     font-size: 16px;
     cursor: pointer;
     margin-top: 20px;
+}
+
+a {
+    color: white;
+}
+
+.more-projects-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
