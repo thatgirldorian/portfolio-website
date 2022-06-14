@@ -52,17 +52,23 @@ header {
     margin-left: 200px;
     margin-right: 200px;
     background-color: white;
-    
 }
 
 .header-logo {
     flex: 1 0 0%;
     position: relative;
-    right: 100px;
+    right: 130px;
     bottom: 25px;
     width: 80px;
     height: 50px;
+    background-color: transparent !important;
 }
+
+/* .header-logo img {
+    overflow: hidden;
+    width: 100%;
+    height: 100px;
+} */
 
 .header-items {
     display: inline-flex;
@@ -203,24 +209,31 @@ footer.contact-wrapper {
     min-width: 100%;
     max-width: 100%;
     height:auto;  
-    background-color: gainsboro;
+    background-color: black;
     padding-top: 20px;
     padding-bottom: 20px;
-    
 }
 
-footer h3 {
+footer.contact-wrapper p {
+    color: white;
     text-align: center;
-    font-weight: bold;
-    font-size: 20px;
 }
 
-.contact-icons img {
+a#email {
+    color: black;
+    text-align: center!important;
+
+}
+
+.contact-icons .fa-solid, .fa-brands {
     width: 25px;
     height: 50px;
     text-align: center;
     padding-right: 10px;
     padding-left: 10px;
+    color: white;
+    font-size: 24px;
+    padding-top: 10px;
 }
 
 /* Style Photo */
