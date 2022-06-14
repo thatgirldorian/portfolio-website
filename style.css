@@ -119,7 +119,8 @@ header {
     padding: 0;
     margin-left: 25px;
     margin-right: 25px;
-    font-size: 16px;
+    font-size: 18px;
+    line-height: 1.5
 }
 
 #desc-link {
@@ -236,12 +237,21 @@ button {
     margin-top: 20px;
 }
 
+.buttons {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 10px;
+}
+
+.buttons .fa-solid {
+    color: black;
+    font-size: 24px;
+}
+
 .project-btn {
     padding: 8px 20px 8px 20px;
     border-radius: 6px;
-    background-color: #41337A;
     border: none;
-    color: #ffffff;
     font-size: 16px;
     cursor: pointer;
     margin-left: 10px;
