@@ -157,8 +157,8 @@ hr {
     cursor: pointer; 
 }
 
-.project-box h5 {
-    font-size: 14px;
+.project-box p {
+    font-size: 16px;
     color: black;
     margin-top: 10px;
     margin-bottom: 10px;
