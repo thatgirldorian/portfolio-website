@@ -28,7 +28,7 @@ h2 {
     margin-bottom: 20px;
 }
 
-p, li, a, button {
+li, button {
     font-size: 16px;
     text-decoration: none;
 }
@@ -37,9 +37,7 @@ h1, h2, h3 {
     color: #41337A;
 }
 
-p, li, a {
-    font-size: 18px;
-}
+
 
 /* Header */
 header {
@@ -50,7 +48,6 @@ header {
     display: flex;
     margin-left: 200px;
     margin-right: 200px;
-    /* background-color: pink; */
 }
 
 .header-logo {
@@ -82,11 +79,19 @@ header {
 }
 
 #blog {
-    background-color: #41337A;
-    padding: 10px 20px 10px 20px;
-    color: white;
-    border-radius: 8px;
+        padding: 10px 20px 10px 20px;
+        position: relative;
+        bottom: 10px;
+        background-color: #41337A;
+        color: white;
+        border-radius: 8px;
 }
+
+#blog a {
+    font-size: 14px;
+        text-decoration: none;
+}
+
 
 .fa-solid {
     padding-left: 5px;
@@ -114,11 +119,19 @@ header {
     padding: 0;
     margin-left: 25px;
     margin-right: 25px;
+    font-size: 16px;
 }
 
 #desc-link {
-    color: #41337A;
+    color: black;
     font-weight: bold;
+}
+
+hr {
+    width: 60%;
+    background-color: gainsboro;
+    height: 1px;
+    border: none;
 }
 
 /* Project Styles */
@@ -137,13 +150,33 @@ header {
 }
 
 .project-box {
-    background-color: #41337A;
+    border: 1px solid grey;
     padding: 10px;
-    color: #ffffff;
     border-radius: 8px;
     transition: 0.4s ease-in-out;
     cursor: pointer; 
 }
+
+.project-box h5 {
+    font-size: 14px;
+    color: black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.project-box h4{
+    color: black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.project-container img {
+    width: 300px;
+    height: 200px;
+    border-radius: 5px;
+    object-fit: cover;
+}
+
 
 
 .project-box a {
@@ -155,9 +188,8 @@ header {
     font-size: 28px;
 }
 
-.project-description {
-    padding: 0;
-    margin: 0;
+.wrapper-heading {
+    color: black;
 }
 
 /* Contact Styles */
@@ -168,6 +200,7 @@ footer.contact-wrapper {
     background-color: gainsboro;
     padding-top: 20px;
     padding-bottom: 20px;
+    
 }
 
 footer h3 {
@@ -184,27 +217,6 @@ footer h3 {
     padding-left: 10px;
 }
 
-
-/* Laptop Width Sizes: p & li */
-@media (max-width: 480px) {
-    p, li {
-        padding-right: 15px;
-        padding-left: 15px;
-        line-height: 1.5;
-    }
-}
-
-
-/* Laptop Width Sizes: p & li */
-@media (min-width: 1024px) {
-    p, li {
-        padding-right: 300px;
-        padding-left: 300px;
-        line-height: 1.5;
-    }
-}
-
-
 /* Style Photo */
 img {
     width: 150px;
@@ -214,9 +226,9 @@ img {
 
 /* Button styles */
 button {
-    padding: 8px 20px 8px 20px;
+    padding: 10px 20px 10px 20px;
     border-radius: 6px;
-    background-color: #41337A;
+    background-color: black;
     border: none;
     color: white;
     font-size: 16px;
@@ -224,17 +236,50 @@ button {
     margin-top: 20px;
 }
 
+.project-btn {
+    padding: 8px 20px 8px 20px;
+    border-radius: 6px;
+    background-color: #41337A;
+    border: none;
+    color: #ffffff;
+    font-size: 16px;
+    cursor: pointer;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
 a {
     color: white;
+    text-decoration: none;
 }
 
 .more-btn {
     text-align: center;
-    padding-top: 5px;
+    padding-top: 10px;
     padding-bottom: 25px;
-    margin-bottom: 40px;
+    margin-bottom: 80px;
 }
 
+/* Laptop Width Sizes: p & li */
+/* @media (max-width: 480px) {
+    p, li {
+        padding-right: 15px;
+        padding-left: 15px;
+        line-height: 1.5;
+    }
+} */
+
+
+/* Laptop Width Sizes: p & li */
+/* @media (min-width: 1024px) {
+    p, li {
+        padding-right: 300px;
+        padding-left: 300px;
+        line-height: 1.5;
+    }
+} */
 
 
 
