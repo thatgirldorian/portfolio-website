@@ -146,16 +146,16 @@ hr {
     display: grid;
     max-width: 1200px;
     margin: 0 auto;
-    /* gap: 16px; */
+    gap: 16px;
 }
 
 .project-box {
     border: 1px solid grey;
-    padding: 10px;
     border-radius: 8px;
     transition: 0.4s ease-in-out;
     cursor: pointer; 
-    margin-bottom: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .project-box p {
@@ -344,7 +344,7 @@ a {
 }
 
 /* For phone Screens: =< 690 */
-@media (max-width: 420px) {
+@media (max-width: 450px) {
     body {
         max-width: 100%;
         overflow-x: hidden;
@@ -380,7 +380,7 @@ a {
 
     
     .project-container img {
-        width: 400px;
+        width: 350px;
         height: 200px;
         border-radius: 5px;
         object-fit: cover;
