@@ -147,8 +147,7 @@ hr {
     max-width: 1200px;
     margin: 0 auto;
     gap: 16px;
-    border: 1px solid red;
-    padding-right: 20px;
+    margin-right: 20px;
 }
 
 .project-box {
