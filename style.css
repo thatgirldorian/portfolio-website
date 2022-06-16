@@ -344,7 +344,7 @@ a {
 }
 
 /* For phone Screens: =< 690 */
-@media (max-width: 450px) {
+@media (max-width: 420px) {
     body {
         max-width: 100%;
         overflow-x: hidden;
