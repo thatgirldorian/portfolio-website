@@ -9,7 +9,7 @@ body {
     padding: 0 ;
     font-family: 'Raleway', sans-serif;
     max-width: 100%;
-    min-height: 100vh;
+    height: 100%;
 }
 
 /* Center the entire page and other elements */
@@ -20,11 +20,6 @@ div {
 }
 
 /* Font styles */
-h1 {
-    font-size: 60px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
 
 h2 {
     font-size: 40px;
@@ -108,10 +103,11 @@ header {
     color: #222222;
 }
 
-.hero h4 {
+.hero h1 {
     font-weight: bold;
-    font-size: 20px;
+    font-size: 24px;
     color: #222222;
+    
 }
 
 .hero p {
@@ -145,7 +141,7 @@ hr {
     /* margin-left: 200px;
     margin-right: 200px; */
     padding: 16px;
-    height: 4rem
+    height: 100%;
 }
 
 .project-container {
@@ -174,7 +170,7 @@ hr {
     margin-bottom: 10px;
 }
 
-.project-box h4{
+.project-box h4 {
     color: black;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -187,25 +183,52 @@ hr {
     object-fit: cover;
 }
 
-.project-box a {
-    color: white;
-}
-
 .project-wrapper h3 {
     font-weight: bold;
     font-size: 28px;
+    color: #222222;
 }
 
-.wrapper-heading {
-    color: black;
+.skills-heading {
+    font-weight: bold;
+    font-size: 28px;
+    color: #222222;
+    padding-top: 20px;
 }
 
-/* Contact Styles */
+
+/* Skills Styles  */
+
+
+.skills-container { 
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 16px;
+    justify-content: center;
+    max-width: -30rem;
+    padding-bottom: 40px;
+    padding-top: 40px;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    background-color: pink;
+}
+
+
+
+
+/* Contact/Footer Styles */
 footer.contact-wrapper {
     background-color: black;
     padding-top: 20px;
     padding-bottom: 20px;
-    margin-top: auto;
+    margin: 0 auto;
 }
 
 footer.contact-wrapper p {
@@ -318,6 +341,11 @@ a {
     .project-container {
         grid-template-columns: repeat(2, 1fr);
     }
+
+    div.hero {
+        margin-left: 0;
+        margin-right: 0;
+    }
 }
 
 /* For phone Screens: =< 690 */
@@ -350,11 +378,17 @@ a {
         display: none;
     }
 
-    .hero h4 {
-        display: inline;
-        color: red;
-        margin: 0;
-        padding: 0;
+    div.hero {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    
+    .project-container img {
+        width: 400px;
+        height: 200px;
+        border-radius: 5px;
+        object-fit: cover;
     }
     
 }
