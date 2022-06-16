@@ -146,8 +146,7 @@ hr {
     display: grid;
     max-width: 1200px;
     margin: 0 auto;
-    gap: 16px;
-    margin-right: 50px;
+    /* gap: 16px; */
 }
 
 .project-box {
@@ -156,6 +155,7 @@ hr {
     border-radius: 8px;
     transition: 0.4s ease-in-out;
     cursor: pointer; 
+    margin-bottom: 15px;
 }
 
 .project-box p {
