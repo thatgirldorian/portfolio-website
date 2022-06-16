@@ -349,7 +349,7 @@ a {
 }
 
 /* For phone Screens: =< 690 */
-@media (max-width: 599px) {
+@media (max-width: 450px) {
     body {
         max-width: 100%;
         overflow-x: hidden;
@@ -365,7 +365,7 @@ a {
     }
 
     .header-items h4 {
-        margin-left: -25px;
+        margin-left: -32px;
     }
 
     .header-logo {
