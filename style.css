@@ -21,7 +21,6 @@ div {
 }
 
 /* Font styles */
-
 h2 {
     font-size: 40px;
     margin-top: 20px;
@@ -76,9 +75,10 @@ header {
     text-decoration: none;
 }
 
-.fa-solid {
-    padding-left: 5px;
+#blog .fa-solid {
+    padding-left: 10px;
 }
+
 
 /* Hero styles */
 
@@ -147,7 +147,7 @@ hr {
     display: grid;
     max-width: 1200px;
     margin: 0 auto;
-    gap: 16px;
+    gap: 36px;
 }
 
 .project-box {
@@ -185,12 +185,18 @@ hr {
     color: #222222;
 }
 
-.skills-heading {
-    font-weight: bold;
-    font-size: 28px;
-    color: #222222;
-    padding-top: 20px;
+.buttons .fa-solid {
+    color: black;
+    background-color: #ffffff;
+    padding: 8px 16px;
 }
+
+.buttons .fa-solid:hover {
+    background-color: #eeeeee;
+    padding: 8px 16px;
+    border-radius: 8px;
+}
+
 
 
 /* Skills Styles  */
@@ -205,7 +211,22 @@ hr {
     justify-content: center;
     max-width: -30rem;
     padding-bottom: 40px;
-    padding-top: 40px;
+    padding-top: 20px;
+    
+}
+
+.skills-heading {
+    font-weight: bold;
+    font-size: 28px;
+    color: #222222;
+    padding-top: 20px;
+}
+
+ul .icon {
+    color: #222222;
+    font-size: 15px;
+    padding-right: 5px;
+    margin: 0 !important;
 }
 
 ul {
@@ -213,10 +234,13 @@ ul {
 }
 
 li {
-    background-color: pink;
+    background-color: gainsboro;
+    border: 1px solid gainsboro;
+    margin: 0 !important;
+    color: #222222;
+    border-radius: 5px;
+    padding: 6px 8px;
 }
-
-
 
 
 /* Contact/Footer Styles */
@@ -238,15 +262,19 @@ a#email {
 
 }
 
-.contact-icons .fa-solid, .fa-brands {
+.brand-icons {
     width: 25px;
     height: 50px;
     text-align: center;
-    padding-right: 10px;
-    padding-left: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
     color: white;
     font-size: 24px;
     padding-top: 10px;
+}
+
+.fa-heart {
+    color: red;
 }
 
 /* Style Photo */
@@ -275,10 +303,6 @@ button {
     margin-bottom: 5px;
 }
 
-.buttons .fa-solid {
-    color: #222222;
-    font-size: 24px;
-}
 
 .project-btn {
     padding: 8px 20px 8px 20px;
