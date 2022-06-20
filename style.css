@@ -444,14 +444,6 @@ a {
 
     .header-items h4 {
         margin-left: -35px;
-<<<<<<< Updated upstream
-=======
-    }
-
-    .menu {
-        height: 200px;
-        width: 400px;
->>>>>>> Stashed changes
     }
 
     .header-logo {
@@ -460,9 +452,6 @@ a {
         top: -45px;
     }
 
-    .header-items h4:nth-child(1n+3) {
-        display: none;
-    }
 
     div.hero {
         margin-left: 0;
