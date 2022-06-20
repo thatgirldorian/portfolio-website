@@ -486,10 +486,12 @@ a {
     #hero-text {
         font-size: 30px;
         line-height: 36px;
+        margin-left: 10px;
+        margin-right: 10px;
     }
 
     #hero-description {
         font-size: 18px;
-        line-height: 28px;
+        line-height: 26px;
     }
 }
