@@ -337,6 +337,58 @@ a {
     margin-bottom: 80px;
 }
 
+
+/* About Page Styles  */
+h2, p {
+    text-align: center;
+    line-height: 20px;
+}
+
+.about-me p {
+    color: #222222;
+    text-align: left;
+    font-size: 18px;
+    text-align: center;
+}
+
+.about-me h4 {
+    text-align: left;
+    margin: 0 !important;
+    padding-bottom: 10px;
+    font-size: 24px;
+    color: #444444;
+}
+
+section {
+    margin-left: 20px;
+    margin-right: 20px;
+    border: 1px solid red;
+}
+
+li {
+    background-color: white !important;
+    padding: 0 !important;
+    border: none;
+    text-align: left;
+    list-style: circle;
+    line-height: 24px;
+}
+
+#about-link {
+    color: black;
+    font-weight: 600;
+}
+
+#about-description {
+    font-size: 22px;
+    color: #777777;
+}
+
+
+
+
+
+
 /* Responsive Styles */
 
 /* Hamburger menu styles */
@@ -403,6 +455,12 @@ a {
     .project-container { 
         grid-template-columns: repeat(3, 1fr); 
     }
+
+    .about-me {
+            margin-left: 280px;
+            margin-right: 230px;
+            border: 1px solid red;
+        }
 }
 
 
