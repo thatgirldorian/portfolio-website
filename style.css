@@ -348,7 +348,6 @@ h2, p {
     color: #222222;
     text-align: left;
     font-size: 18px;
-    text-align: center;
 }
 
 .about-me h4 {
@@ -370,7 +369,11 @@ li {
     border: none;
     text-align: left;
     list-style: circle;
-    line-height: 24px;
+    line-height: 24px !important;
+}
+
+#say-hello {
+    text-align: left;
 }
 
 #about-link {
@@ -381,6 +384,8 @@ li {
 #about-description {
     font-size: 22px;
     color: #777777;
+    padding-bottom: 40px;
+    text-align: center;
 }
 
 
