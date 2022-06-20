@@ -79,6 +79,13 @@ header {
     padding-left: 10px;
 }
 
+<<<<<<< Updated upstream
+=======
+.hamburger {
+    display: none;
+}
+
+>>>>>>> Stashed changes
 
 /* Hero styles */
 
@@ -200,8 +207,6 @@ hr {
 
 
 /* Skills Styles  */
-
-
 .skills-container { 
     align-items: center;
     display: flex;
@@ -331,9 +336,60 @@ a {
 
 /* Responsive Styles */
 
+/* Hamburger menu styles */
+@media (max-width: 670px) {
+    .menuItem {
+        display: block;
+        margin: 2rem 4rem;
+        font-size: 1.8rem;
+        color: white;
+        text-decoration: none;
+        font-size: 20px;
+    }
+    
+    .hamburger  {
+        display: block;
+        background-color:white;
+        color: #222222;
+        position: fixed;
+        z-index: 100;
+        top: 6px;
+        right: 16px;
+        padding: 4px;
+        border: black solid 1px;
+        background: white;
+        cursor: pointer;
+        font-size: 20px;
+    }
+    
+    .closeIcon {
+        display: none;
+    }
+    
+    .menu {
+        position: fixed;
+        transform: translateY(-100%);
+        transition: transform 0.2s;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        z-index: 99;
+        background: black;
+        color: white;
+    }
+    
+    .showMenu {
+        transform: translateY(0);
+    }
+    }
+    
+
 /* For Laptop Screens */
 @media (min-width: 900px) {
-    .project-container { grid-template-columns: repeat(3, 1fr); }
+    .project-container { 
+        grid-template-columns: repeat(3, 1fr); 
+    }
 }
 
 
@@ -366,7 +422,9 @@ a {
         margin-left: 0;
         margin-right: 0;
     }
+
 }
+
 
 /* For phone Screens: =< 690 */
 @media (max-width: 450px) {
@@ -386,6 +444,14 @@ a {
 
     .header-items h4 {
         margin-left: -35px;
+<<<<<<< Updated upstream
+=======
+    }
+
+    .menu {
+        height: 200px;
+        width: 400px;
+>>>>>>> Stashed changes
     }
 
     .header-logo {
