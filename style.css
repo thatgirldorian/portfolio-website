@@ -444,11 +444,7 @@ a {
     
     .showMenu {
         transform: translateY(0);
-        height: 200px !important;
-        width: 300px !important;
-
-        border-radius: 8px;
-    
+        width: 290px !important;
     }
 
      /* Hamburger menu */
