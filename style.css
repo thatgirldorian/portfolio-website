@@ -389,6 +389,33 @@ li {
 }
 
 
+/* Contact page styles */
+/* Form Styles */
+input[type=text], input[type=email], select, textarea {
+    width: 100%; 
+    padding: 12px; 
+    border: 1px solid #777777; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    font-family: 'Raleway', sans-serif;
+}  
+
+textarea {
+    resize: none;
+    height: 200px;
+}
+
+.contact-me {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.contact-me button {
+    margin-bottom: 40px;
+    font-family: 'Raleway', sans-serif;
+}
 
 
 
@@ -460,10 +487,12 @@ li {
         grid-template-columns: repeat(3, 1fr); 
     }
 
-    .about-me {
+    .about-me, .contact-me {
             margin-left: 280px;
             margin-right: 230px;
         }
+
+   
 }
 
 
