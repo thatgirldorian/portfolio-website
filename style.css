@@ -485,5 +485,11 @@ a {
 
     #hero-text {
         font-size: 30px;
+        line-height: 36px;
+    }
+
+    #hero-description {
+        font-size: 18px;
+        line-height: 28px;
     }
 }
