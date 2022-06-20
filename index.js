@@ -1,17 +1,27 @@
-// //make the header sticky
-// window.onscroll = function() {makeSticky()};
+//this will help toggle the hamburger menu
+const menu = document.querySelector(".menu")
+const menuItems = document.querySelectorAll(".menuItem")
+const hamburger = document.querySelector(".hamburger")
+const closeIcon = document.querySelector(".closeIcon")
+const menuIcon = document.querySelector(".menuIcon")
 
-// // Get the header
-// let header = document.querySelector(".navbar");
+// Toggle the menu
+toggleMenu = () => {
+    if (menu.classList.contains("showMenu")) {
+        menu.classList.remove("showMenu")
+        closeIcon.style.display = "none"
+        menuIcon.style.display = "inline"
+    } else {
+        menu.classList.add("showMenu")
+        closeIcon.style.display = "inline"
+        menuIcon.style.display = "none"
+    }
+}
 
-// // Get the offset position of the navbar
-// let sticky = header.offsetTop;
+hamburger.addEventListener("click", toggleMenu)
 
-// // Add the sticky class to the header when you reach its scroll position. Remove "sticky" when you leave the scroll position
-// function makeSticky() {
-//     if (window.pageYOffset > sticky) {
-//     header.classList.add("sticky-header");
-//     } else {
-//     header.classList.remove("sticky-header");
-//     }
-// }
+// Hide menu when the links are clicked
+menuItems.forEach(
+    function(menuItem) { 
+        menuItem.addEventListener("click", toggleMenu);
+    })
