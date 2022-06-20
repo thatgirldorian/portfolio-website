@@ -61,6 +61,14 @@ header {
     padding: 0 20px;
 }
 
+.header-items h4:hover {
+    text-decoration: underline;
+    text-decoration-color: #41337A;
+    text-decoration-thickness: 3px;
+    cursor: pointer;
+    text-underline-offset: 1px;
+}
+
 #blog {
         padding: 10px 20px 10px 20px;
         position: relative;
@@ -77,6 +85,12 @@ header {
 
 #blog .fa-solid {
     padding-left: 10px;
+}
+
+/* Hamburger menu styles */
+.hamburger  {
+    background-color: white;
+    color: #222222;
 }
 
 
