@@ -265,7 +265,7 @@ li {
 }
 
 
-/* Contact/Footer Styles */
+/* Footer Styles */
 footer.contact-wrapper {
     background-color: black;
     padding-top: 20px;
@@ -353,8 +353,14 @@ a {
 
 
 /* About Page Styles  */
-h2, p {
+h2 {
+    line-height: 20px;
+    padding-top: 40px;
     text-align: center;
+}
+
+p {
+    text-align: left;
     line-height: 20px;
 }
 
