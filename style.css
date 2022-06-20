@@ -62,12 +62,18 @@ header {
     padding: 0 20px;
 }
 
-.header-items h4:hover {
+.menuItem a {
+    color: #222222;
+}
+
+
+.header-items a:hover {
     text-decoration: underline;
     text-decoration-color: #41337A;
     text-decoration-thickness: 3px;
     cursor: pointer;
     text-underline-offset: 1px;
+    
 }
 
 #blog {
@@ -78,6 +84,14 @@ header {
 #blog a {
     text-decoration: none;
     color: #222222;
+}
+
+#blog a:hover {
+    text-decoration: underline;
+    text-decoration-color: #41337A;
+    text-decoration-thickness: 3px;
+    cursor: pointer;
+    text-underline-offset: 1px;
 }
 
 #blog .fa-solid {
