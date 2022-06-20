@@ -477,4 +477,13 @@ a {
         padding-left: 10px;
         font-size: 15px;
     }
+
+    /* Font Options */
+    .hero h1 {
+        font-size: 18px;
+    }
+
+    #hero-text {
+        font-size: 30px;
+    }
 }
