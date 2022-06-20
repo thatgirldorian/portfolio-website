@@ -1,89 +1,16 @@
 /* Body styles */
+* {
+    box-sizing: border-box;
+}
+
 body {
     background-color: #ffffff;
-    margin: 0 auto;
-    padding: 0 auto;
-}
-
-/* Font styles */
-
-h1 {
-    font-size: 60px;
-    font-family: 'Sacramento', cursive;
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
-
-h2 {
-    font-family: 'Sacramento', cursive;
-    font-size: 40px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
-
-h3 {
-    font-size: 26px;
-    font-family: 'Montserrat', sans-serif;
-}
-
-p, li, a, button {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 16px;
-}
-
-h1, h2, h3 {
-    color: #41337A;
-}
-
-p, li, a {
-    font-size: 18px;
-}
-
-/* Header */
-.header {
-    margin: 0;
-    padding-bottom: 10px;
-}
-
-#desc-link {
-    color: #41337A;
-    font-weight: bold;
-}
-
-/* Laptop Width Sizes: p & li */
-@media (max-width: 480px) {
-    p, li {
-        padding-right: 15px;
-        padding-left: 15px;
-        line-height: 1.5;
-    }
-}
-
-
-/* Laptop Width Sizes: p & li */
-@media (min-width: 1024px) {
-    p, li {
-        padding-right: 300px;
-        padding-left: 300px;
-        line-height: 1.5;
-    }
-}
-
-.wrapper-heading {
-    color: #41337A;
-}
-
-/* Style Photo */
-img {
-    width: 230px;
-    height: 230px;
-    border-radius: 50%;
-}
-
-/* Div spacing  */
-
-.project-wrapper, .contact-wrapper {
-    padding-top: 25px;
+    margin: 0 ;
+    padding: 0 ;
+    font-family: 'Raleway', sans-serif;
+    max-width: 100%;
+    height: 100%;
+    overflow-x: hidden;
 }
 
 /* Center the entire page and other elements */
@@ -93,67 +20,276 @@ div {
     margin: 0;
 }
 
-ul {
-    display: flex;
-    justify-content: center;
-    padding: 0;
+/* Font styles */
+h2 {
+    font-size: 40px;
+    margin-top: 20px;
     margin-bottom: 20px;
-    }
+}
+
+li, button {
+    font-size: 16px;
+    text-decoration: none;
+}
+
+h1, h2, h3 {
+    color: #41337A;
+}
+
+header {
+    margin-top: 0;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0;
+    height: 80px;
+}
+
+.header-logo img {
+    margin-right: auto;
+}
+
+.header-logo {
+    padding-top: 20px;
+}
+
+.header-items h4 {
+    display: inline;
+    padding: 0 20px;
+}
+
+#blog {
+        padding: 10px 20px 10px 20px;
+        position: relative;
+        top: -5px;
+        background-color: #41337A;
+        color: white;
+        border-radius: 8px;
+}
+
+#blog a {
+    font-size: 14px;
+    text-decoration: none;
+}
+
+#blog .fa-solid {
+    padding-left: 10px;
+}
+
+
+/* Hero styles */
+
+.hero {
+    margin-top: 20px;
+    padding-top: 30px;
+    /* background-color: #faedcd; */
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-bottom: 20px;
+    padding-bottom: 30px;
+}
+
+.hero p:nth-child(3) {
+    font-weight: bold;
+    font-size: 42px;
+    margin-bottom: 20px;
+    color: #222222;
+}
+
+.hero p:nth-child(4) {
+    padding-bottom: 20px;
+    color: #222222;
+}
+
+.hero h1 {
+    font-weight: bold;
+    font-size: 24px;
+    color: #222222;
     
-li {
-    display: inline-block;
-    list-style-type: none;
-    }
+}
+
+.hero p {
+    margin: 0;
+    padding: 0;
+    margin-left: 25px;
+    margin-right: 25px;
+    font-size: 18px;
+    line-height: 1.5
+}
+
+.hero button {
+    margin-bottom: 60px;
+}
+
+#desc-link {
+    color: #222222;
+    font-weight: bold;
+}
+
+hr {
+    width: 60%;
+    background-color: gainsboro;
+    height: 1px;
+    border: none;
+}
+
+/* Project Styles */
+.project-wrapper {
+    /* background-color: #ccd5ae; */
+    padding: 16px;
+    height: 100%;
+}
+
+.project-container {
+    display: grid;
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 36px;
+}
 
 .project-box {
+    border: 1px solid grey;
+    border-radius: 8px;
+    transition: 0.4s ease-in-out;
+    cursor: pointer; 
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.project-box p {
+    font-size: 16px;
+    color: black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.project-box h4 {
+    color: black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.project-container img {
+    width: 300px;
+    height: 200px;
+    border-radius: 5px;
+    object-fit: cover;
+}
+
+.project-wrapper h3 {
+    font-weight: bold;
+    font-size: 28px;
+    color: #222222;
+}
+
+.buttons .fa-solid {
+    color: black;
+    background-color: #ffffff;
+    padding: 8px 16px;
+}
+
+.buttons .fa-solid:hover {
+    background-color: #eeeeee;
+    padding: 8px 16px;
+    border-radius: 8px;
+}
+
+
+
+/* Skills Styles  */
+
+
+.skills-container { 
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 16px;
+    justify-content: center;
+    max-width: -30rem;
+    padding-bottom: 40px;
+    padding-top: 20px;
+    
+}
+
+.skills-heading {
+    font-weight: bold;
+    font-size: 28px;
+    color: #222222;
+    padding-top: 20px;
+}
+
+ul .icon {
+    color: #222222;
+    font-size: 15px;
+    padding-right: 5px;
+    margin: 0 !important;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    background-color: gainsboro;
+    border: 1px solid gainsboro;
+    margin: 0 !important;
+    color: #222222;
+    border-radius: 5px;
+    padding: 6px 8px;
+}
+
+
+/* Contact/Footer Styles */
+footer.contact-wrapper {
+    background-color: black;
+    padding-top: 20px;
     padding-bottom: 20px;
+    margin: 0 auto;
 }
 
-/* Styling for the project headers */
-.project-box a {
-    text-decoration: underline;
-    text-decoration-color: #41337A;
-    text-decoration-style: solid;
-    text-decoration-thickness: 4px;
+footer.contact-wrapper p {
+    color: white;
+    text-align: center;
 }
 
-.project-box a:link {
-    color: #41337A;
-    background-color: transparent;
-    text-decoration: underline;
-    text-decoration-style: solid;
-    text-decoration-thickness: 4px;
+a#email {
+    color: #222222;
+    text-align: center!important;
+
 }
 
-.project-box a:visited {
-    color: #41337A;
-    background-color: transparent;
-    text-decoration: underline;
-    text-decoration-style: solid;
-    text-decoration-thickness: 4px;
+.brand-icons {
+    width: 25px;
+    height: 50px;
+    text-align: center;
+    padding-right: 20px;
+    padding-left: 20px;
+    color: white;
+    font-size: 24px;
+    padding-top: 10px;
 }
 
-.project-box a:hover {
-    color: #41337A;
-    background-color: transparent;
-    text-decoration: underline;
-    text-decoration-style: solid;
-    text-decoration-thickness: 4px;
+.fa-heart {
+    color: red;
 }
 
-.project-box a:active {
-    color: #41337A;
-    background-color: transparent;
-    text-decoration: underline;
-    text-decoration-style: solid;
-    text-decoration-thickness: 4px;
+/* Style Photo */
+img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    align-content: center;
 }
 
 /* Button styles */
 button {
-    padding: 8px 20px 8px 20px;
+    padding: 10px 20px 10px 20px;
     border-radius: 6px;
-    background-color: #41337A;
+    background-color: #222222;
     border: none;
     color: white;
     font-size: 16px;
@@ -161,21 +297,118 @@ button {
     margin-top: 20px;
 }
 
-/* Contact info styles */
-.contact-icons img {
-    width: 25px;
-    height: 50px;
-    text-align: center;
-    padding-right: 20px;
+.buttons {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 5px;
 }
 
-/* Project image style */
-.project-img {
-    width: 270px;
-    height: 270px;
+
+.project-btn {
+    padding: 8px 20px 8px 20px;
+    border-radius: 6px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.more-btn {
+    text-align: center;
+    padding-top: 10px;
+    padding-top: 40px;
+    padding-bottom: 25px;
+    margin-bottom: 80px;
+}
+
+/* Responsive Styles */
+
+/* For Laptop Screens */
+@media (min-width: 900px) {
+    .project-container { grid-template-columns: repeat(3, 1fr); }
+}
+
+
+/* For Ipad Screens:  600 t0 990 */
+@media (min-width: 600px) and (max-width: 990px)  {
+    body {
+        max-width: 100%;
+        overflow-x: hidden;
+    }
+
+    .header-items h4:nth-child(3) {
+        display: none;
+    }
+
+    .header-logo {
+        position: fixed;
+        left: -20px;
+        top: -45px;
+    }
+
+    .header-items h4 {
+        margin-left: 35px;
+    }
+
+    .project-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    div.hero {
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+
+/* For phone Screens: =< 690 */
+@media (max-width: 450px) {
+    body {
+        max-width: 100%;
+        overflow-x: hidden;
+    }
+
+    .header-items {
+        /* background-color: red; */
+        display: inline-block;
+        padding-top: -30px;
+        margin-top: 15px;
+        margin-bottom: 5px;
+        margin-left: 280px;
+    }
+
+    .header-items h4 {
+        margin-left: -35px;
+    }
+
+    .header-logo {
+        position: fixed;
+        left: -20px;
+        top: -45px;
+    }
+
+    .header-items h4:nth-child(1n+3) {
+        display: none;
+    }
+
+    div.hero {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    
+    .project-container img {
+        width: 350px;
+        height: 200px;
+        border-radius: 5px;
+        object-fit: cover;
+    }
     
 }
-.project-img-box {
-    padding-top: 0;
-}
-

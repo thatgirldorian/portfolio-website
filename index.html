@@ -4,55 +4,151 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Sacramento&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&family=Raleway:wght@300;400;700&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <title>👩🏽‍💻 debbie otuagomah - front-end developer</title>
 </head>
 <body>
     
     <!-- Header  -->
-    <div class="header">
-        <h1>debbie otuagomah.</h1>
-        <h2>front-end engineer.</h2>
-        <img src="./images/debbie-img.jpg" alt="a photo of debbie">
-    </div>
+    <header>
+            <div class="header-logo">
+                <img src="./images/new-logo.png" alt="Logo">
+            </div>
+            <div class="header-items">
+                <h4>ABOUT</h4>
+                <h4>PROJECTS</h4>
+                <h4>SKILLS</h4>
+                <h4>CONTACT</h4>
+                <h4 id="blog"><a href="https://codechunks.hashnode.dev/" target="_blank">BLOG<i class="fa-solid fa-circle-arrow-right"></i></a></h4>
+            </div>
+    </header>
 
     <!-- Quick description -->
-    <div>
-        <p>Hi! My name is Debbie and I like to build things for the web: useful things and stuff just for fun. </p>
-        <p>I'm currently learning to make things with JavaScript and React js. This website is a house for all the bajillion projects I'll be creating and a constant work in progress. When I'm not coding, I love to <a id="desc-link" href="https://www.goodreads.com/user/show/42402824-debbie">read fiction (SFF, thriller, horror & everything in between)</a>  and watch anime.</p>
+    <div class="hero">
+        <div class="hero-img">
+            <img src="./images/debbie-img.jpg" alt="a photo of debbie">
+        </div>
+        <h1>Hi, I'm Debbie </h1>
+        <p>A front-end developer who builds things for the web. </p>
+        <p>I like making wep apps & pages with JavaScript. This website is a house for all the bajillion projects I create. When I'm not coding, I <a id="desc-link" href="https://www.goodreads.com/user/show/42402824-debbie">read fiction (SFF, thriller, horror & everything in between)</a>  & watch anime.</p>
+        <button><a href="github.com/thatgirldorian">Connect with me</a></button>
     </div>
+
+    <hr>
+
+
+
+        <!-- Skills and Tools Section -->
+    <div class="skills-wrapper">
+            <h3 class="skills-heading">Skills & Tools</h3>
+            <ul class="skills-container">
+                <li>JavaScript</li>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>React</li>
+                <li>TypeScript</li>
+                <li>Bulma CSS</li>
+                <li>Tailwind CSS</li>
+                <li>Trello</li>
+                <li>Slack</li>
+            </ul>
+    </div>
+
+
+        <hr>
 
     <!-- Projects -->
     <div class="project-wrapper">
-        <h3 class="wrapper-heading">recent projects</h3>
-        <div class="project-box">
-            <a href="https://jade-portfolio.netlify.app" target="_blank">Product Design Portfolio UI</a>
-            <ul>
-                <li class="project-description">This is a personal website for a product designer. It showcases their areas of expertise, their skills, and a way to contact them.</li>
-            </ul>
-        </div> 
-        <div class="project-box">
-            <a href="https://bookbuddy1.netlify.app" target="_blank">Bookbuddy Website UI</a>
-            <ul>
-                <li class="project-description">Here is a website UI for an app that allows people find bookish friends and buddy reads.</li>
-            </ul>
-        </div> 
-        <a href="projects.html"><button>more projects</button></a>
-        </div>
+        <h3 class="wrapper-heading">Projects</h3>
+        <p>Here are some of my side projects</p>
+        <div class="project-container">
+            <article class="project-box">
+                <h4>Book Buddy</h4>
+                <img src="./images/bookbuddy.png" alt="project-img">
+                <p>An app that lets you find bookish friends</p>
+                <div class="buttons">
+                    <a href="https://github.com/thatgirldorian/Book-Buddy-UI-with-Bootstrap" target="_blank" class="project-btn"><i class="fa-solid fa-code-branch"></i></a>
+                    <a href="https://bookbuddy1.netlify.app/" target="_blank" class="project-btn"><i class="fa-solid fa-globe"></i></a>
+                </div>
+            </article> 
 
-    <!-- Contact Info -->
-    <div class="contact-wrapper">
-        <h3>contact me</h3>
-        <div class="contact-icons">
-            <a href="https://github.com/thatgirldorian" target="_blank"><img src="/images/github.svg"></a>
-            <a href="https://twitter.com/tbrmonster" target="_blank"><img src="/images/twitter.svg"></a>
-            <a href="https://www.linkedin.com/in/deborah-otuagomah/" target="_blank"><img src="/images/linkedin2.svg"></a>
-            <a href="mailto:debbie.otua@gmail.com" target="_blank"><img src="/images/email2.svg"></a>
-        </div>
+            <article class="project-box">
+                <h4>Time App</h4>
+                <img src="./images/timer4.png" alt="project-img">
+                <p>A timer built with vanilla JavaScript</p>
+                <div class="buttons">
+                    <a href="https://github.com/thatgirldorian/Timer-App-with-JavaScript" target="_blank" class="project-btn"><i class="fa-solid fa-code-branch"></i></a>
+                    <a href="https://timer-app1.netlify.app/" target="_blank" class="project-btn"><i class="fa-solid fa-globe"></i></a>
+                </div>
+            </article> 
+
+            <article class="project-box">
+                <h4>Oval Clothing</h4>
+                <img src="./images/project1.png" alt="project-img">
+                <p>An e-commerce project with Node JS</p>
+                <div class="buttons">
+                    <a href="https://github.com/thatgirldorian/clothing-store" target="_blank" class="project-btn"><i class="fa-solid fa-code-branch"></i></a>
+                    <a href="https://new-oval.herokuapp.com/" target="_blank" class="project-btn"><i class="fa-solid fa-globe"></i></a>
+                </div>
+            </article> 
+
+            <article class="project-box">
+                <h4>Maze Game</h4>
+                <img src="./images/maze2.png" alt="project-img">
+                <p>A browser-based maze game</p>
+                <div class="buttons">
+                    <a href="https://github.com/thatgirldorian/maze-game" target="_blank" class="project-btn"><i class="fa-solid fa-code-branch"></i></a>
+                    <a href="https://maze-game7.netlify.app/" target="_blank" class="project-btn"><i class="fa-solid fa-globe"></i></a>
+                </div>
+            </article> 
+
+            <article class="project-box">
+                <h4>Locha</h4>
+                <img src="./images/code.png" alt="project-img">
+                <p>A testing framework written in JavaScript</p>
+                <div class="buttons">
+                    <a href="https://github.com/thatgirldorian/locha" target="_blank" class="project-btn"><i class="fa-solid fa-code-branch"></i></a>
+                </div>
+            </article> 
+
+            <article class="project-box">
+                <h4>Anime Rater</h4>
+                <img src="./images/anime.png" alt="project-img">
+                <p>A web app that lets you rate anime shows</p>
+                <div class="buttons">
+                    <a href="https://github.com/thatgirldorian/anime-rater" target="_blank" class="project-btn"><i class="fa-solid fa-code-branch"></i></a>
+                    <a href="https://anime-rater.netlify.app/" target="_blank" class="project-btn"><i class="fa-solid fa-globe"></i></a>
+                </div>
+            </article> 
+
+
     </div>
 
+    <div class="more-btn">
+        <button><a href="projects.html" target="_blank">More Projects</a></button>
+    </div>
+    
+    </div>
+
+
+    
+    <!-- Contact Info -->
+
+    <footer class="contact-wrapper">
+        <div class="contact-icons">
+            <a href="https://github.com/thatgirldorian" target="_blank"><i class="fa-brands fa-github brand-icons"></i></a>
+            <a href="https://twitter.com/tbrmonster" target="_blank"><i class="fa-brands fa-twitter brand-icons"></i></a>
+            <a href="https://www.linkedin.com/in/deborah-otuagomah/" target="_blank"><i class="fa-brands fa-linkedin brand-icons"></i></a>
+            <a href="mailto:debbie.otua@gmail.com" target="_blank"><i class="fa-solid fa-envelope brand-icons"></i></a>
+        </div> 
+        <p>Made with <i class="fa-solid fa-heart"></i> by Debbie Otuagomah</p>
+    </footer>
+
+
+    <script src="index.js" type="text/javascript"></script>
 </body>
 </html>
