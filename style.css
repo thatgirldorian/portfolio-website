@@ -347,11 +347,10 @@ a {
 @media (max-width: 670px) {
     .menuItem {
         display: block;
-        margin: 2rem 4rem;
-        font-size: 1.8rem;
+        margin: 16px;
+        font-size: 14px;
         color: white;
         text-decoration: none;
-        font-size: 20px;
     }
     
     .hamburger  {
@@ -388,8 +387,11 @@ a {
     
     .showMenu {
         transform: translateY(0);
+        height: 250px;
+        margin: 80px 16px 0px 80px;
+        border-radius: 8px;
     }
-    }
+}
     
 
 /* For Laptop Screens */
@@ -439,14 +441,14 @@ a {
         max-width: 100%;
         overflow-x: hidden;
     }
+    
+    .showMenu {
+        transform: translateY(0);
+        height: 200px !important;
+        width: 300px !important;
 
-    .header-items {
-        /* background-color: red; */
-        display: inline-block;
-        padding-top: -30px;
-        margin-top: 15px;
-        margin-bottom: 5px;
-        margin-left: 280px;
+        border-radius: 8px;
+    
     }
 
      /* Hamburger menu */

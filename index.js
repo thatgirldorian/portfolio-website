@@ -10,10 +10,10 @@ toggleMenu = () => {
     if (menu.classList.contains("showMenu")) {
         menu.classList.remove("showMenu")
         closeIcon.style.display = "none"
-        menuIcon.style.display = "inline"
+        menuIcon.style.display = "block"
     } else {
         menu.classList.add("showMenu")
-        closeIcon.style.display = "inline"
+        closeIcon.style.display = "block"
         menuIcon.style.display = "none"
     }
 }
