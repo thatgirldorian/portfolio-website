@@ -71,17 +71,13 @@ header {
 }
 
 #blog {
-        padding: 10px 20px 10px 20px;
-        position: relative;
-        top: -5px;
-        background-color: #41337A;
-        color: white;
+        color: #222222;
         border-radius: 8px;
 }
 
 #blog a {
-    font-size: 14px;
     text-decoration: none;
+    color: #222222;
 }
 
 #blog .fa-solid {
@@ -345,12 +341,33 @@ a {
 
 /* Hamburger menu styles */
 @media (max-width: 670px) {
-    .menuItem {
-        display: block;
-        margin: 16px;
-        font-size: 14px;
+    .menu {
+        position: fixed;
+        transform: translateY(-100%);
+        transition: transform 0.2s;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        z-index: 99;
+        background: white;
         color: white;
-        text-decoration: none;
+        display: grid;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;;
+    }
+
+    .menuItem {
+        display: grid;
+        font-size: 16px;
+        color: black;
+        margin: 8px 10px;
+        text-align: left;
+    }
+
+    .menuItem h4 {
+        padding: 0 !important;
     }
     
     .hamburger  {
@@ -362,27 +379,13 @@ a {
         top: 6px;
         right: 16px;
         padding: 4px;
-        border: black solid 1px;
         background: white;
         cursor: pointer;
-        font-size: 20px;
+        font-size: 24px;
     }
     
     .closeIcon {
         display: none;
-    }
-    
-    .menu {
-        position: fixed;
-        transform: translateY(-100%);
-        transition: transform 0.2s;
-        top: 0;
-        left: 0;
-        bottom: 0;
-        right: 0;
-        z-index: 99;
-        background: black;
-        color: white;
     }
     
     .showMenu {
@@ -391,6 +394,7 @@ a {
         margin: 80px 16px 0px 80px;
         border-radius: 8px;
     }
+
 }
     
 
@@ -442,21 +446,12 @@ a {
         overflow-x: hidden;
     }
     
+      /* Hamburger menu */
     .showMenu {
         transform: translateY(0);
         width: 290px !important;
     }
 
-     /* Hamburger menu */
-    .header-items h4 {
-        margin-left: -35px;
-        display: none;
-    }
-
-    .menu {
-        height: 200px;
-        width: 400px;
-    }
 
     .header-logo {
         position: fixed;
