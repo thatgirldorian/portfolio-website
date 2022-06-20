@@ -387,7 +387,7 @@ a {
     
     .showMenu {
         transform: translateY(0);
-        height: 250px;
+        height: 200px;
         margin: 80px 16px 0px 80px;
         border-radius: 8px;
     }
