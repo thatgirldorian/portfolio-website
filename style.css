@@ -188,6 +188,7 @@ hr {
     color: black;
     margin-top: 10px;
     margin-bottom: 10px;
+    text-align: left !important;
 }
 
 .project-box h4 {
@@ -207,6 +208,10 @@ hr {
     font-weight: bold;
     font-size: 28px;
     color: #222222;
+}
+
+.project-wrapper p{
+    text-align: center;
 }
 
 .buttons .fa-solid {
