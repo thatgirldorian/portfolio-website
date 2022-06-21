@@ -354,17 +354,25 @@ p {
     font-size: 18px;
 }
 
-.about-me h4 {
-    text-align: left;
+.about-me h2 {
+    text-align: center;
     margin: 0 !important;
     padding-bottom: 10px;
-    font-size: 24px;
     color: #444444;
+}
+
+.about-me h4 {
+    font-size: 24px;
 }
 
 section {
     margin-left: 20px;
     margin-right: 20px;
+    padding-bottom: 20px;
+}
+
+.list {
+    margin: 0 !important;
 }
 
 .list li {
@@ -378,7 +386,6 @@ section {
     color: #222222;
 }
 
-
 #about-link {
     color: black;
     font-weight: 600;
@@ -388,7 +395,7 @@ section {
     font-size: 22px;
     color: #777777;
     padding-bottom: 40px;
-    text-align: left;
+    text-align: center;
 }
 
 
