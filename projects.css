@@ -1,6 +1,11 @@
 /* Body styles */
-* {
+html {
     box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+  *, *::before, *::after {
+    box-sizing: inherit;
 }
 
 body {
@@ -22,7 +27,6 @@ div {
 
 /* Font styles */
 h2 {
-    font-size: 40px;
     margin-top: 20px;
     margin-bottom: 20px;
 }
@@ -109,6 +113,13 @@ header {
     padding: 16px;
     height: 100%;
 }
+
+.wrapper-heading {
+    margin-left: 0 !important;
+    padding-left: 0 !important;
+    text-align: center;
+}
+
 
 .project-container, project-info-box {
     display: grid;
@@ -215,8 +226,6 @@ header {
     object-fit: cover;
 }
 
-
-
 .buttons {
     display: grid;
     grid-template-columns: 1fr 12fr;
@@ -230,7 +239,9 @@ header {
     padding-left:0 !important;
 }
 
-
+.project-type {
+    text-align: center;
+}
 
 
 
@@ -387,6 +398,11 @@ a {
             margin-top: 8px;
             font-size: 36px;
         }
+
+    .project-box-heading {
+        margin-left: 150px;
+        margin-right: 150px;
+    }
 }
 
 
