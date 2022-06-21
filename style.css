@@ -386,10 +386,6 @@ section {
     color: #222222;
 }
 
-#about-link {
-    color: black;
-    font-weight: 600;
-}
 
 #about-description {
     font-size: 22px;
@@ -422,14 +418,34 @@ textarea {
     margin-right: 20px;
 }
 
-
 .contact-me h2 {
-    text-align: left;
+    text-align: center;
 }
 
 .contact-me button {
     margin-bottom: 40px;
     font-family: 'Raleway', sans-serif;
+}
+
+.contact-me ul {
+    padding-left: 25px;
+    margin: 0;
+}
+
+.contact-me li {
+    background-color: white !important;
+    padding: 0 !important;
+    border: none;
+    text-align: left;
+    list-style: disc;
+    line-height: 24px !important;
+    font-size: 18px !important;
+}
+
+#about-link {
+    color: black !important;
+    font-weight: 600;
+    font-size: 16px;
 }
 
 
