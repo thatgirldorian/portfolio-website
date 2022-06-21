@@ -32,6 +32,9 @@ li, button {
     text-decoration: none;
 }
 
+h1, h2, h3 {
+    color: #41337A;
+}
 
 header {
     margin-top: 0;
@@ -100,64 +103,6 @@ header {
     display: none;
 }
 
-
-/* Hero styles */
-
-.hero {
-    margin-top: 20px;
-    padding-top: 30px;
-    /* background-color: #faedcd; */
-    margin-left: 300px;
-    margin-right: 300px;
-    margin-bottom: 20px;
-    padding-bottom: 30px;
-}
-
-.hero p:nth-child(3) {
-    font-weight: bold;
-    font-size: 42px;
-    margin-bottom: 20px;
-    color: #222222;
-}
-
-.hero p:nth-child(4) {
-    padding-bottom: 20px;
-    color: #222222;
-}
-
-.hero h1 {
-    font-weight: bold;
-    font-size: 24px;
-    color: #222222;
-    
-}
-
-.hero p {
-    margin: 0;
-    padding: 0;
-    margin-left: 25px;
-    margin-right: 25px;
-    font-size: 18px;
-    line-height: 1.5
-}
-
-.hero button {
-    margin-bottom: 60px;
-}
-
-#desc-link {
-    color: #222222;
-    font-weight: bold;
-}
-
-hr {
-    width: 60%;
-    background-color: gainsboro;
-    height: 1px;
-    border: none;
-}
-
-
 /* Project Styles */
 .project-wrapper {
     /* background-color: #ccd5ae; */
@@ -165,41 +110,104 @@ hr {
     height: 100%;
 }
 
-.wrapper-heading {
-    font-weight: bold;
-    font-size: 28px;
-    color: #222222;
-    text-align: center;
-}
-
-.project-container {
+.project-container, project-info-box {
     display: grid;
     max-width: 1200px;
     margin: 0 auto;
     gap: 36px;
 }
 
+.project-box-heading {
+        display: grid;
+        grid-template-columns: 1fr 8fr;
+        grid-gap: 20px;
+        border-radius: 8px;
+        transition: 0.4s ease-in-out;
+        cursor: pointer; 
+        padding: 10px;
+        border: none;
+        background-color: #eeeeee;
+        margin-bottom: 50px;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+.project-icon-heading .fa-solid {
+    text-align: left;
+    margin-top: 16px;
+    font-size: 36px;
+}
+
+.project-info-heading {
+    text-align: left;
+    margin-left: -10px;
+}
+
+
 .project-box {
+    display: grid;
+    grid-template-columns: 1fr 8fr;
+    grid-gap: 20px;
     border: 1px solid grey;
     border-radius: 8px;
     transition: 0.4s ease-in-out;
     cursor: pointer; 
     padding-left: 10px;
     padding-right: 10px;
+    border: none;
+    width: 350px;
+    height: 200px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
 }
 
+
 .project-box p {
-    font-size: 16px;
+    font-size: 18px;
     color: black;
     margin-top: 10px;
     margin-bottom: 10px;
-    text-align: center;
+    text-align: left;
 }
+.project-info {
+    margin-left: -10px;
+}
+
+
+.information {
+    display: flex;
+    margin-top: -15px;
+    padding: 0;
+    font-size: 1.125rem;
+    list-style: none;
+    font-weight: bold;
+}
+
+.information>li:not(:first-child)::before {
+    content: "/";
+    margin: 0 5px;
+    font-weight: normal;
+    color: #222222
+}
+
+.project-info li {
+    list-style-type: none;
+}
+
+.project-info a {
+    color: #41337A;
+    text-align: left;
+}
+
+.project-icon .fa-solid {
+    margin-top: 24px;
+}
+
 
 .project-box h4 {
     color: black;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: left;
+    font-size: 20px;
 }
 
 .project-container img {
@@ -210,55 +218,22 @@ hr {
 }
 
 
-.buttons .fa-solid {
-    color: black;
-    background-color: #ffffff;
-    padding: 8px 40px;
-    margin-bottom: 10px;
-    /* margin-top: 5px;  */
-}
 
-.buttons .fa-solid:hover {
-    background-color: #eeeeee;
-    padding: 8px 16px;
-    border-radius: 8px;
-}
-
-/* Skills Styles  */
-.skills-container { 
-    align-items: center;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    gap: 16px;
-    justify-content: center;
-    /* max-width: -30rem; */
-    margin: 5px 0;
-    padding: 0px 20px;
-}
-
-.skills-container li {
-    list-style: none;
-}
-
-.skills-heading {
-    font-weight: bold;
-    font-size: 28px;
-    color: #222222;
-    text-align: center;
-    margin-left: 20px;
-}
-
-li {
+.buttons {
+    display: grid;
+    grid-template-columns: 1fr 12fr;
+    background-color: red;
     margin: 0 !important;
-    color: #41337A;
-    border-radius: 5px;
-    padding: 6px 8px;
+    margin-bottom: 20px !important;
 }
 
-li:nth-child(n) {
-    font-size: 40px;
+.project-btn {
+    margin: 0 !important;
+    padding-left:0 !important;
 }
+
+
+
 
 
 /* Footer Styles */
@@ -315,12 +290,11 @@ button {
     margin-top: 20px;
 }
 
-/* .buttons {
-    color: yellow;
+.buttons {
     padding-top: 10px;
     padding-bottom: 10px;
     margin-bottom: 5px;
-} */
+}
 
 a {
     color: white;
@@ -333,95 +307,6 @@ a {
     padding-top: 40px;
     padding-bottom: 25px;
     margin-bottom: 80px;
-}
-
-
-/* About Page Styles  */
-h2 {
-    line-height: 20px;
-    padding-top: 40px;
-    text-align: left;
-}
-
-p {
-    text-align: left;
-    line-height: 20px;
-}
-
-.about-me p {
-    color: #222222;
-    text-align: left;
-    font-size: 18px;
-}
-
-.about-me h4 {
-    text-align: left;
-    margin: 0 !important;
-    padding-bottom: 10px;
-    font-size: 24px;
-    color: #444444;
-}
-
-section {
-    margin-left: 20px;
-    margin-right: 20px;
-}
-
-li {
-    background-color: white !important;
-    padding: 0 !important;
-    border: none;
-    text-align: left;
-    list-style: circle;
-    line-height: 24px !important;
-    font-size: 18px
-}
-
-
-#about-link {
-    color: black;
-    font-weight: 600;
-}
-
-#about-description {
-    font-size: 22px;
-    color: #777777;
-    padding-bottom: 40px;
-    text-align: left;
-}
-
-
-/* Contact page styles */
-/* Form Styles */
-input[type=text], input[type=email], select, textarea {
-    width: 100%; 
-    padding: 12px; 
-    border: 1px solid #777777; 
-    border-radius: 4px; 
-    box-sizing: border-box; 
-    margin-top: 6px; 
-    margin-bottom: 16px; 
-    font-family: 'Raleway', sans-serif;
-}  
-
-textarea {
-    resize: none;
-    height: 200px;
-}
-
-.contact-me {
-    margin-left: 20px;
-    margin-right: 20px;
-}
-
-
-.contact-me h2 {
-    text-align: left;
-}
-
-.contact-me button {
-    margin-bottom: 40px;
-    font-family: 'Raleway', sans-serif;
 }
 
 
@@ -499,6 +384,11 @@ textarea {
             margin-right: 230px;
         }
 
+        .project-icon-heading .fa-solid {
+            text-align: left;
+            margin-top: 8px;
+            font-size: 36px;
+        }
 }
 
 
@@ -508,7 +398,6 @@ textarea {
         max-width: 100%;
         overflow-x: hidden;
     }
-
 
     .header-logo {
         position: fixed;
@@ -577,18 +466,15 @@ textarea {
     }
 
     #hero-text {
-        text-align: center;
         font-size: 32px;
         line-height: 36px;
-        margin-left: 20px;
-        margin-right: 20px;
+        margin-left: 10px;
+        margin-right: 10px;
     }
 
     #hero-description {
         font-size: 18px;
         line-height: 26px;
-        margin-left: 20px;
-        margin-right: 20px;
-        text-align: center;
     }
+
 }
