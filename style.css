@@ -383,6 +383,10 @@ p {
     color: #444444;
 }
 
+.about-me{
+    padding-bottom: 25px;
+}
+
 section {
     margin-left: 20px;
     margin-right: 20px;
