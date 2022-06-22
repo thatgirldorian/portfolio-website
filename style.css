@@ -21,10 +21,19 @@ div {
 }
 
 /* Font styles */
+h1 {
+    color: #202939 !important;
+}
+
 h2 {
     font-size: 40px;
     margin-top: 20px;
     margin-bottom: 20px;
+    color: #202939;
+}
+
+p, a {
+    color: #4B5565 !important;
 }
 
 li, button {
@@ -171,8 +180,8 @@ hr {
 .wrapper-heading {
     font-weight: bold;
     font-size: 28px;
-    color: #222222;
     text-align: center;
+    color: #202939 !important;
 }
 
 .project-container {
@@ -422,6 +431,10 @@ textarea {
     margin-bottom: 0 !important;
 }
 
+::placeholder { 
+    color: #4B5565;
+}
+
 .contact-me {
     margin-top: 80px !important;
     margin-bottom: 80px !important;
@@ -460,11 +473,12 @@ textarea {
 
 label {
     font-weight: bold;
+    color: #202939;
 }
 
 
 #about-link {
-    color: black !important;
+    color: #4B5565 !important;
     font-weight: 600;
     font-size: 16px;
 }
