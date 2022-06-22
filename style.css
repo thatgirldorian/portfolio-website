@@ -7,7 +7,7 @@ body {
     background-color: #ffffff;
     margin: 0 ;
     padding: 0 ;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Inter', sans-serif;
     max-width: 100%;
     height: 100%;
     overflow-x: hidden;
@@ -33,7 +33,7 @@ h2 {
 }
 
 p, a {
-    color: #4B5565 !important;
+    color: #4B5565;
 }
 
 li, button {
@@ -275,7 +275,7 @@ li:nth-child(n) {
 
 /* Footer Styles */
 footer.contact-wrapper {
-    background-color: black;
+    background-color: #202939;
     padding-top: 20px;
     padding-bottom: 20px;
     margin: 0 auto;
@@ -289,7 +289,10 @@ footer.contact-wrapper p {
 a#email {
     color: #222222;
     text-align: center!important;
+}
 
+.footer-p {
+    color: white !important;
 }
 
 .brand-icons {
@@ -319,7 +322,7 @@ img {
 button {
     padding: 10px 20px 10px 20px;
     border-radius: 6px;
-    background-color: #222222;
+    background-color: #202939;
     border: none;
     color: white;
     font-size: 16px;
@@ -417,12 +420,12 @@ section {
 input[type=text], input[type=email], select, textarea {
     width: 100%; 
     padding: 12px; 
-    border: 1px solid #777777; 
+    border: 1px solid #697586; 
     border-radius: 4px; 
     box-sizing: border-box; 
     margin-top: 12px; 
     margin-bottom: 24px; 
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Inter', sans-serif;
 }  
 
 textarea {
@@ -432,7 +435,7 @@ textarea {
 }
 
 ::placeholder { 
-    color: #4B5565;
+    color: #697586;
 }
 
 .contact-me {
@@ -453,7 +456,7 @@ textarea {
 
 .contact-me button {
     margin-top: 24px !important;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Inter', sans-serif;
 }
 
 .contact-me ul {
