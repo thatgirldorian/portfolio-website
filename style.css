@@ -400,6 +400,11 @@ section {
 
 /* Contact page styles */
 /* Form Styles */
+#say-hello {
+    text-align: center;
+    line-height: 24px;
+}
+
 input[type=text], input[type=email], select, textarea {
     width: 100%; 
     padding: 12px; 
@@ -427,7 +432,7 @@ textarea {
 
 .contact-me h2 {
     text-align: center;
-    margin: 0;
+    margin-bottom: 24 !important;
     padding: 0;
 }
 
@@ -455,9 +460,6 @@ label {
     font-weight: bold;
 }
 
-input {
-    
-}
 
 #about-link {
     color: black !important;
