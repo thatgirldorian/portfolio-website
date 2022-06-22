@@ -401,7 +401,7 @@ section {
 /* Contact page styles */
 /* Form Styles */
 #say-hello {
-    text-align: center;
+    text-align: left;
     line-height: 24px;
 }
 
@@ -431,7 +431,7 @@ textarea {
 }
 
 .contact-me h2 {
-    text-align: center;
+    text-align: left;
     margin-bottom: 24 !important;
     padding: 0;
 }
