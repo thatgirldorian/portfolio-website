@@ -69,7 +69,7 @@ header {
     text-decoration-color: #41337A;
     text-decoration-thickness: 3px;
     cursor: pointer;
-    text-underline-offset: 1px;
+    text-underline-offset: 2px;
     
 }
 
@@ -88,7 +88,7 @@ header {
     text-decoration-color: #41337A;
     text-decoration-thickness: 3px;
     cursor: pointer;
-    text-underline-offset: 1px;
+    text-underline-offset: 2px;
 }
 
 #blog .fa-solid {
@@ -147,7 +147,9 @@ header {
 
 #desc-link {
     color: #222222;
-    font-weight: bold;
+    text-decoration: underline;
+    text-underline-offset: 2px;
+    
 }
 
 hr {
