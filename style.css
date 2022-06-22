@@ -419,12 +419,14 @@ input[type=text], input[type=email], select, textarea {
 textarea {
     resize: none;
     height: 200px;
+    margin-bottom: 0 !important;
 }
 
 .contact-me {
     margin-top: 80px !important;
     margin-bottom: 80px !important;
     padding-top: 64px;
+    padding-bottom: 72px;
     padding-left: 20px;
     padding-right: 20px;
     box-shadow: rgba(0, 0, 0, 0.09) 0px 3px 12px;
@@ -437,7 +439,7 @@ textarea {
 }
 
 .contact-me button {
-    margin-bottom: 40px;
+    margin-top: 24px !important;
     font-family: 'Raleway', sans-serif;
 }
 
