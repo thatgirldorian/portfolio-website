@@ -44,6 +44,7 @@ h1, h2, h3 {
 p {
     line-height: 24px;
     color: #4B5565;
+    margin: 0;
 }
 
 header {
@@ -117,18 +118,29 @@ header {
 .project-wrapper {
     /* background-color: #ccd5ae; */
     height: 100%;
+    padding-top: 48px;
 }
 
 .wrapper-heading {
-    margin-left: 0 !important;
+    margin: 0 !important;
+    margin-bottom: 24px !important;
     padding-left: 0 !important;
     text-align: center;
     color: #202939;
     font-size: 40px;
 }
 
+.project-hero {
+    margin-bottom: 56px;
+}
 
-.project-container, project-info-box {
+.project-container {
+    /* border: 2px solid red; */
+    margin-bottom: 72px;
+    padding: 0 30px 0 30px;
+}
+
+.project-cards, project-info-box {
     display: grid;
     max-width: 1200px;
     margin: 0 auto;
@@ -164,13 +176,12 @@ header {
     display: grid;
     grid-template-columns: 1fr 8fr;
     grid-gap: 20px;
-    border: 1px solid grey;
     border-radius: 8px;
     transition: 0.4s ease-in-out;
     cursor: pointer; 
     padding-left: 10px;
     padding-right: 10px;
-    border: none;
+    /* border: none; */
     box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
 }
 
@@ -224,7 +235,7 @@ header {
     font-size: 20px;
 }
 
-.project-container img {
+.project-cards img {
     width: 300px;
     height: 200px;
     border-radius: 5px;
@@ -245,6 +256,8 @@ header {
 }
 
 .project-type {
+    margin: 0 !important;
+    margin-bottom: 32px !important;
     text-align: center;
     color: #202939;
 }
@@ -394,7 +407,7 @@ a {
 
 /* For Laptop Screens */
 @media (min-width: 900px) {
-    .project-container { 
+    .project-cards { 
         grid-template-columns: repeat(3, 1fr); 
     }
 
@@ -433,7 +446,7 @@ a {
         margin-left: 35px;
     }
 
-    .project-container {
+    .project-cards {
         grid-template-columns: repeat(2, 1fr);
     }
 
@@ -472,7 +485,7 @@ a {
     }
 
     
-    .project-container img {
+    .project-cards img {
         width: 350px;
         height: 200px;
         border-radius: 5px;
