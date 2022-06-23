@@ -123,32 +123,31 @@ header {
     padding-bottom: 30px;
 }
 
-.hero p:nth-child(3) {
-    font-weight: bold;
-    font-size: 42px;
+.hero h2 {
+    font-size: 40px;
     margin-bottom: 20px;
-    color: #222222;
+    color: #202939;
+    line-height: 1;
 }
 
 .hero p:nth-child(4) {
     padding-bottom: 20px;
-    color: #222222;
+    color: #4B5565;
 }
 
 .hero h1 {
     font-weight: bold;
     font-size: 24px;
     color: #222222;
-    
 }
 
-.hero p {
+.hero p, h2 {
     margin: 0;
     padding: 0;
     margin-left: 25px;
     margin-right: 25px;
     font-size: 18px;
-    line-height: 1.5
+    line-height: 1.5;
 }
 
 .hero button {
@@ -202,14 +201,14 @@ hr {
 
 .project-box p {
     font-size: 16px;
-    color: black;
+    color: #4B5565;
     margin-top: 10px;
     margin-bottom: 10px;
     text-align: center;
 }
 
 .project-box h4 {
-    color: black;
+    color: #202939;
     margin-top: 10px;
     margin-bottom: 10px;
 }
@@ -223,7 +222,7 @@ hr {
 
 
 .buttons .fa-solid {
-    color: black;
+    color: #202939;
     background-color: #ffffff;
     padding: 8px 40px;
     margin-bottom: 10px;
@@ -256,14 +255,14 @@ hr {
 .skills-heading {
     font-weight: bold;
     font-size: 28px;
-    color: #222222;
+    color: #202939;
     text-align: center;
     margin-left: 20px;
 }
 
 li {
     margin: 0 !important;
-    color: #41337A;
+    color: #4B5565;
     border-radius: 5px;
     padding: 6px 8px;
 }
@@ -361,10 +360,16 @@ h2 {
 p {
     text-align: left;
     line-height: 20px;
+    color: #4B5565;
+}
+
+#bio-link {
+    color: #4B5565;
+    text-decoration: underline;
+    text-underline-offset: 2px;
 }
 
 .about-me p {
-    color: #222222;
     text-align: left;
     font-size: 18px;
 }
@@ -373,11 +378,12 @@ p {
     text-align: center;
     margin: 0 !important;
     padding-bottom: 10px;
-    color: #444444;
+    color: #202939;
 }
 
 .about-me h4 {
     font-size: 24px;
+    color: #202939;
 }
 
 section {
@@ -398,7 +404,7 @@ section {
     list-style: disc;
     line-height: 24px !important;
     font-size: 18px !important;
-    color: #222222;
+    color: #4B5565;
 }
 
 
@@ -449,8 +455,11 @@ textarea {
 }
 
 .contact-me h2 {
+    font-size: 40px;
     text-align: left;
-    margin-bottom: 24 !important;
+    margin-bottom: 24px !important;
+    margin-left: 0;
+    margin-right: 0;
     padding: 0;
 }
 
@@ -657,6 +666,7 @@ label {
         margin-left: 20px;
         margin-right: 20px;
     }
+
 
     #hero-description {
         font-size: 18px;
