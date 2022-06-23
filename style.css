@@ -351,6 +351,7 @@ a {
 
 
 /* About Page Styles  */
+
 h2 {
     line-height: 20px;
     padding-top: 40px;
@@ -363,37 +364,66 @@ p {
     color: #4B5565;
 }
 
+.about-hero {
+    margin-bottom: 28px;
+}
+
 #bio-link {
     color: #4B5565;
     text-decoration: underline;
     text-underline-offset: 2px;
 }
 
+.about-me-info {
+    margin-bottom: 32px;
+}
+
+.about-me-info p:nth-child(2) {
+    margin: 0;
+}
+
 .about-me p {
     text-align: left;
-    font-size: 18px;
+    font-size: 16px;
+    line-height: 24px;
+    margin: 0;
+    margin-bottom: 12px;
 }
 
 .about-me h2 {
-    text-align: center;
+    font-size: 40px;
+    text-align: left;
     margin: 0 !important;
-    padding-bottom: 10px;
+    margin-bottom: 32px !important;
     color: #202939;
+    padding: 0;
 }
 
 .about-me h4 {
     font-size: 24px;
     color: #202939;
+    margin: 0;
+    text-align: left;
+    margin-bottom: 16px !important;
+}
+
+.about-me-box {
+    margin-bottom: 32px;
 }
 
 section {
     margin-left: 20px;
     margin-right: 20px;
-    padding-bottom: 20px;
+    padding-top: 48px;
+    padding-bottom: 72px;
 }
 
 .list {
     margin: 0 !important;
+}
+
+.about-me .list {
+    padding-left: 15px;
 }
 
 .list li {
@@ -403,16 +433,17 @@ section {
     text-align: left;
     list-style: disc;
     line-height: 24px !important;
-    font-size: 18px !important;
+    font-size: 16px !important;
     color: #4B5565;
 }
 
 
 #about-description {
-    font-size: 22px;
-    color: #777777;
-    padding-bottom: 40px;
-    text-align: center;
+    font-size: 20px;
+    color: #4B5565;
+    padding: 0;
+    margin: 0;
+    text-align: left;
 }
 
 
