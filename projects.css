@@ -461,7 +461,7 @@ a {
 
     .header-logo {
         position: fixed;
-        left: -14px;
+        left: 14px;
         top: -45px;
     }
 
