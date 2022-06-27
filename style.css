@@ -388,6 +388,17 @@ a {
 
 
 /* About Page Styles  */
+/* .about-img {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.about-img img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50px;
+    align-content: center;
+} */
 
 h2 {
     line-height: 20px;
