@@ -41,12 +41,12 @@
     <p>You can use this form below too:</p>
 
     <form name="contact" method="POST" data-netlify="true">
-        <label for="name">Name</label>
+        <label type="text" name="name" for="name">Name</label>
         <input type="text" name="firstname" placeholder="Name">
-        <label for="email">Email address</label>
+        <label type="email" name="email" for="email">Email address</label>
         <input type="email" name="email"  placeholder="Email address">
         <label for="name">Your message</label>
-        <textarea id="message" placeholder="Your message"></textarea>
+        <textarea name="message" id="message" placeholder="Your message"></textarea>
         <button type="submit">Send message</button>
     </form>
     </section>
