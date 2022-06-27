@@ -185,11 +185,14 @@ hr {
 /* Project Styles */
 .project-wrapper {
     /* background-color: #ccd5ae; */
-    padding: 16px;
+    padding: 0px 16px;
     height: 100%;
+    margin-top: 126px;
 }
 
 .wrapper-heading {
+    margin: 0;
+    margin-bottom: 40px;
     font-weight: bold;
     font-size: 28px;
     text-align: center;
@@ -260,6 +263,7 @@ hr {
     flex-wrap: wrap;
     gap: 16px;
     justify-content: center;
+    margin: 0 !important;
     /* max-width: -30rem; */
     /* margin: 5px 0; */
     padding: 0px 20px;
@@ -275,6 +279,7 @@ hr {
     color: #202939;
     text-align: center;
     margin: 0;
+    margin-bottom: 40px;
 }
 
 li {
@@ -285,7 +290,7 @@ li {
 }
 
 li:nth-child(n) {
-    font-size: 40px;
+    font-size: 48px;
 }
 
 
