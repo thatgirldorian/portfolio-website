@@ -84,13 +84,13 @@ header {
 }
 
 #blog {
-        color: #222222;
+        color: #202939;
         border-radius: 8px;
 }
 
 #blog a {
     text-decoration: none;
-    color: #222222;
+    color: #202939;
 }
 
 #blog a:hover {
@@ -125,9 +125,12 @@ header {
 
 .hero h2 {
     font-size: 40px;
-    margin-bottom: 20px;
+    margin: 0;
+    margin-bottom: 20px !important;
+    padding: 0;
     color: #202939;
-    line-height: 1;
+    text-align: center;
+    line-height: 52px;
 }
 
 .hero p:nth-child(4) {
@@ -137,15 +140,19 @@ header {
 
 .hero h1 {
     font-weight: bold;
-    font-size: 24px;
-    color: #222222;
+    font-size: 20px;
+    /* color: #222222; */
+    color: #202939 !important;
+    margin: 24px 0;
 }
 
-.hero p, h2 {
+.hero p {
     margin: 0;
-    padding: 0;
-    margin-left: 25px;
-    margin-right: 25px;
+    margin-bottom: 24px;
+    padding: 0 !important;
+    text-align: center;
+    /* margin-left: 25px;
+    margin-right: 25px; */
     font-size: 18px;
     line-height: 1.5;
 }
@@ -155,7 +162,7 @@ header {
 }
 
 #desc-link {
-    color: #222222;
+    color: #202939;
     text-decoration: underline;
     text-underline-offset: 2px;
     
@@ -372,6 +379,7 @@ p {
     color: #4B5565;
     text-decoration: underline;
     text-underline-offset: 2px;
+    cursor: pointer;
 }
 
 .about-me-info {
@@ -694,17 +702,19 @@ label {
         text-align: center;
         font-size: 32px;
         line-height: 36px;
-        margin-left: 20px;
-        margin-right: 20px;
+        margin: 0;
+        padding: 0;
+        margin-bottom: 24px;
     }
 
 
     #hero-description {
         font-size: 18px;
         line-height: 26px;
-        margin-left: 20px;
-        margin-right: 20px;
+        padding: 0;
+        margin-bottom: 24px;
         text-align: center;
+
     }
 
     .contact-me {
