@@ -695,7 +695,7 @@ label {
 
 
 /* For phone Screens: =< 690 */
-@media (max-width: 450px) {
+@media (min-width: 200px) and (max-width: 599px) {
     body {
         max-width: 100%;
         overflow-x: hidden;
