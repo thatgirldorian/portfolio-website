@@ -2,8 +2,8 @@
 
 // window.onload = function() {
 //     let client = contentful.createClient({
-//         space: 'mdfqpwy4pc7k',
-//         accessToken: 'X0B5mSBqytlkq5PKARxwhHTBrOePhHeWavJZ2FtXOeI',
+//         space: '',
+//         accessToken: '',
 //     });
 
 //     const getBlogPosts = async ()=>{
