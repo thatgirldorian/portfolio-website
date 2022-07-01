@@ -1,3 +1,28 @@
+//
+
+// window.onload = function() {
+//     let client = contentful.createClient({
+//         space: 'mdfqpwy4pc7k',
+//         accessToken: 'X0B5mSBqytlkq5PKARxwhHTBrOePhHeWavJZ2FtXOeI',
+//     });
+
+//     const getBlogPosts = async ()=>{
+//         const data = await client.getEntries().then(function (entries) {
+//           console.log(entries)
+//             // log the title for all the entries that have it
+//             entries.items.forEach(function (entry) {
+//               if (entry.fields.productName) {
+//                 console.log(entry.fields.productName);
+//               }
+//             });
+//           });
+//           console.log(data)
+//     }
+//     getBlogPosts()
+//   };
+
+
+
 //this will help toggle the hamburger menu
 const menu = document.querySelector(".menu")
 const menuItems = document.querySelectorAll(".menuItem")
